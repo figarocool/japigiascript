@@ -1,0 +1,98 @@
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  What's New  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        Revision history:
+
+        - 26th November 1996 -
+        First release of Floods (v1.0)
+
+        Notes: Remember this date friends... it's the beginning of a new way
+               to flood!
+
+
+        - 14th December 1996 -
+        Second release of Floods (v1.1)
+        -> Used a different method of displaying the log which is a lot faster
+           and more reliable.  Code thanks to Zarquon.
+        -> Added the Floods Advisor which will give you some advice on what
+           type of floods to use, after asking some questions.
+        -> Ported Floods to VB4.0.
+        -> Change the looks of part of Floods, such as fonts, etc.
+        -> Now you can resize the main menu.
+        -> Found a way to optimise the flooding even more.
+        -> Added a half second delay after sending messages and if sending of
+           messages fails, there is a 10 time retry.  This is to prevent data
+           loss due to lagged connections.
+        -> In v1.0, all 3 Hurrican floods are reported as "(Light)", even
+           though they are different.  Fixed.
+        -> The Hurrican floods are improved.
+        -> Added Floodnet / Botnet support.
+
+        Notes: Floods is better than ever with its new Floodnet / Botnet
+               ability!  Remember, if you want to be a registered use, send
+               me a reason why you like Floods and an enhancement / bugfix you
+               would like to see in Floods.  To be a supporter, you need to
+               send 2 reasons and 2 enhancements / bugfixes.  Refer to Contact
+               Information for more information.
+
+        
+        - 30th December 1996 -
+        Maintainance release of Floods (v1.1.1)
+        -> Added the date to release v1.1 in this file.
+        -> Added error checking to prevent someone from connecting to himself.
+        -> Previously, if a compound flood (A flood with more than one
+           command, such as a CTCP KILL) is requested, it takes a long time
+           before flooding actually occurs.  This is now fixed.
+        -> Changed the way compound floods are carried out.  Previously
+           compound flooding is carried out as below (For a 3 command flood
+           with 3 bots):
+
+           Bot one performs command one.
+           Bot one performs command two.
+           Bot one performs command three.
+           Bot two performs command one.
+           Bot two performs command two.
+           Bot two performs command three.
+           Bot three performs command one.
+           Bot three performs command two.
+           Bot three performs command three.
+
+           Now, compound flooding is carried out as below:
+
+           Bot one performs command one.
+           (.1 second pause)
+           Bot two performs command one.
+           Bot one performs command two.
+           (.1 second pause)
+           Bot three performs command one.
+           Bot two performs command two.
+           Bot one performs command three.
+           (.1 second pause)
+           Bot three performs command two.
+           Bot two performs command three.
+           (.1 second pause)
+           Bot three performs command three.
+
+           This way, the chances of the bots getting killed is less.
+        -> If you looked closely, sometimes the font in the log will change.
+           Since the default font is a DOS font, (E.G: the character "W" has
+           the same width as the character "I"), the changing of fonts may
+           result in the log looking silly, especially if someone is sending
+           you an ASCII art (IF he manages to bypass the flood protection that
+           is).  This is now fixed.
+        -> Fixed some bugs.
+
+        Notes: Go to my page and check out my newest program, Avalanche!
+
+
+        - 23rd January 1997 -
+        Third release of Floods (v2.0)
+        -> Added a new flood, Random, which will select a random flood from
+           the list of floods.
+        -> Changed some of the code, although the result is the same (a bit
+           faster and uses less memory though).
+        -> Fixed some bugs with the log.
+        -> Revised floods.doc
+        -> This may be the LAST version of Floods as I cannot seem to find
+           anything to add to it.

@@ -1,0 +1,7 @@
+irc.intercom.it Thu Aug 14 21:01:37 2025
+#yggdra 1
+#bitcoin-ultras 1
+#freedom 1
+#kchat 1
+#intercom 1
+#bofh 6

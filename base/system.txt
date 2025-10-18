@@ -1,0 +1,16 @@
+Elimina TuTTo:{ fwdel $sline(@socks-searcher,1) }
+-
+Elimina Nome:{ clear -l @socks-searcher | loadbuf @socks-searcher $mircdirsocks\socks.txt }
+-
+Trova Sock
+.On:/.enable #socksearch | /echo -a Sock scan e' 4On in %script | /.enable #sockscan
+.Off:/.disable #socksearch | /echo -a Sock scan e' 4Off in %script | /.disable #sockscan
+-
+--=>Edita<=--:/run $mircdirBase\sock.txt
+--==>Chiudi<==-- :{ window -c @socks-searcher }
+
+
+
+
+
+

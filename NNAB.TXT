@@ -1,0 +1,40 @@
+[07/06/00 21.32.35 GMT+0200] Ready on port 139.
+[07/06/00 21.32.35 GMT+0200] Ready on port 138.
+[07/06/00 21.32.35 GMT+0200] Ready on port 137.
+[07/06/00 21.32.35 GMT+0200] Ready on port 129.
+[07/06/00 21.32.35 GMT+0200] Ready on port 53.
+[09/06/97 20.29.04 GMT+0200] Ready on port 139.
+[09/06/97 20.29.04 GMT+0200] Ready on port 138.
+[09/06/97 20.29.04 GMT+0200] Ready on port 137.
+[09/06/97 20.29.04 GMT+0200] Ready on port 129.
+[09/06/97 20.29.04 GMT+0200] Ready on port 53.
+[09/06/97 20.29.10 GMT+0200] Port 139 closed.
+[09/06/97 20.29.10 GMT+0200] Port 138 closed.
+[09/06/97 20.29.10 GMT+0200] Port 137 closed.
+[09/06/97 20.29.10 GMT+0200] Port 129 closed.
+[09/06/97 20.29.10 GMT+0200] Port 53 closed.
+[11/06/97 2.04.18 GMT+0200] Ready on port 139.
+[11/06/97 2.04.18 GMT+0200] Ready on port 138.
+[11/06/97 2.04.18 GMT+0200] Ready on port 137.
+[11/06/97 2.04.18 GMT+0200] Ready on port 129.
+[11/06/97 2.04.18 GMT+0200] Ready on port 53.
+[06/07/00 14.04.12 GMT+0200] Ready on port 139.
+[06/07/00 14.04.12 GMT+0200] Ready on port 138.
+[06/07/00 14.04.12 GMT+0200] Ready on port 137.
+[06/07/00 14.04.12 GMT+0200] Ready on port 129.
+[06/07/00 14.04.12 GMT+0200] Ready on port 53.
+[06/07/00 14.04.14 GMT+0200] Port 139 closed.
+[06/07/00 14.04.14 GMT+0200] Port 138 closed.
+[06/07/00 14.04.14 GMT+0200] Port 137 closed.
+[06/07/00 14.04.14 GMT+0200] Port 129 closed.
+[06/07/00 14.04.14 GMT+0200] Port 53 closed.
+[13/01/99 17.11.26 GMT+0100] Ready on port 139.
+[13/01/99 17.11.26 GMT+0100] Ready on port 138.
+[13/01/99 17.11.26 GMT+0100] Ready on port 137.
+[13/01/99 17.11.26 GMT+0100] Ready on port 129.
+[13/01/99 17.11.26 GMT+0100] Ready on port 53.
+[13/01/99 17.11.30 GMT+0100] Port 139 closed.
+[13/01/99 17.11.30 GMT+0100] Port 138 closed.
+[13/01/99 17.11.30 GMT+0100] Port 137 closed.
+[13/01/99 17.11.30 GMT+0100] Port 129 closed.
+[13/01/99 17.11.30 GMT+0100] Port 53 closed.
