@@ -1,0 +1,40 @@
+
+Session Start: Fri Jan 08 01:58:57 1999
+<FigaroCoo> ciao
+<GuZuRa> ciao
+<FigaroCoo>  ti posso fare una domandina
+<GuZuRa> vai ma non ti assicuro niente
+<FigaroCoo> o disaseblato un file con w32dasm ... lo compilato con il c++ e mi da degli errori come devo fare'
+<FigaroCoo> ?
+<GuZuRa> che cos'hai ricompilato il .alf o il .wpj?
+<FigaroCoo> .alf
+<FigaroCoo> io non lo so usare
+<FigaroCoo> mi spiegli come fà
+<FigaroCoo> quale devo compilare?
+<GuZuRa> il .alf è un formato tipo testo con commenti e non è ricompilabile
+<GuZuRa> il .wpj non ho mai provato ma credo che non sia possibile ricompilarlo
+<FigaroCoo> con cosa si riconpila
+<FigaroCoo> non e esadecimale
+<FigaroCoo> come funziona
+<FigaroCoo> ?
+*** brinuccia (_fname@ppp-114-126.24-151.libero.it) invites you to join #LATINAONLINE
+1-
+0,12 Invite from: 15brinuccia0 on Channel: 15#LATINAONLINE0 - 15[F5]0 to join -12.
+1-
+<GuZuRa> il disassemblato è tale che che probabilmente solo il wdasm 32 riesce a interpretarlo ed eseguirlo 
+<FigaroCoo> coem  devo farlo a disaseblarlo e a modificarlo.. e a ricompilarlo che programmi ci vogliono?
+<GuZuRa> questo non ne ho idea
+<FigaroCoo> tu quando fai i crack come fai
+<GuZuRa> di solito uso sice per individuare all'incirca dove sta la protezione
+<FigaroCoo> cosa?
+<FigaroCoo> sice e che e
+<GuZuRa> SoftIce
+<FigaroCoo> a
+<FigaroCoo> e poi per ricompilarlo come fai?
+<GuZuRa> poi col wdasm32 lo disassemblo vado a cercare l'offset dell'istruzione che voglio cambiare
+<GuZuRa> trovato l'offset apro l'exe con un editor esadecimale e cambio l'istruzione
+<FigaroCoo> a
+<GuZuRa> se vuoi imparare qualcosa sul reversing vai a questo url e leggiti il disclaimer e tutte le istruzioni
+<GuZuRa> uic-spippolatori.com
+Session Close: Fri Jan 08 02:22:03 1999
+

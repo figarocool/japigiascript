@@ -1,0 +1,48 @@
+
+Session Start: Wed Jan 06 14:20:20 1999
+Session Ident: Rebokko (~xxxx@rub101.sp00.c1.interbusiness.it)
+<Rebokko> io lo sono
+<Rebokko> un po
+<FigaroCoo> ciao
+<Rebokko> ciao
+<FigaroCoo> ai un convertitore di assebler in c++
+<Rebokko> no
+<Rebokko> mi spiace
+<FigaroCoo> scusa ti posso fare una domanda.?
+<FigaroCoo> che linguaggio è questo ?
+<FigaroCoo> /*	This file was automatically created by
+<FigaroCoo>  *	Reverse Engineering Compiler 1.5f (C) Giampiero Caprino (Apr 25 1999)
+<FigaroCoo>  *	Input file: 'cchat.exe'
+<FigaroCoo>  */
+<FigaroCoo> /*	Procedure: 0x00401B77 - 0x00401B86
+<FigaroCoo>  *	Argument size: 0
+<FigaroCoo>  *	Local size: 0
+<FigaroCoo>  *	Save regs size: 0
+<FigaroCoo>  */
+<FigaroCoo> L00401B77()
+<FigaroCoo> {
+<FigaroCoo>     asm("adc [ebp+0xaa00c5],ebp");
+<FigaroCoo>     edx = -184455201;
+<FigaroCoo>     asm("sbb ah,[esi+esi*4]");
+<FigaroCoo>     asm("Unknown opcode 0x8f");
+<FigaroCoo>     asm("iret");
+<FigaroCoo> }
+<FigaroCoo> /*	Procedure: 0x00401B87 - 0x00401B96
+<FigaroCoo>  *	Argument size: 0
+<FigaroCoo>  *	Local size: 0
+<FigaroCoo>  *	Sav
+<FigaroCoo> ci 6
+<FigaroCoo> 6
+<Rebokko> si
+<FigaroCoo> che linguaggio è
+<Rebokko> bella domanda, 
+<Rebokko> non è molto user-friendly come linguaggio, da quel poco che leggo
+<Rebokko> ti posso dire quello che non è
+<FigaroCoo> dimmi
+<Rebokko> non è java,c,delphi,html,sql,pl/sql
+<FigaroCoo> a
+<FigaroCoo> vorse e disasebler?
+<Rebokko> io ho sentito dire che assembler e soci, sono difficili perchè bisogna sapere dei codici numerici precisi
+<Rebokko> può darsi
+Session Close: Wed Jan 06 14:31:58 1999
+

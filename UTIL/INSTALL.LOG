@@ -1,0 +1,39 @@
+***  Installation Started 04/04/1999 21:36  ***
+Title: NeoTrace 2.12a Shareware Installation
+Source: C:\DOWNLOAD\NEOTRACE.EXE
+File Copy: C:\Programmi\NeoTrace\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\NeoTrace 2.12a Shareware
+RegDB Val: NeoTrace 2.12a Shareware
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: NeoTrace 2.12a Shareware
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\NeoTrace 2.12a Shareware
+RegDB Val: C:\PROGRA~1\NEOTRACE\UNWISE.EXE C:\PROGRA~1\NEOTRACE\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\NEOTRACE\UNWISE.EXE C:\PROGRA~1\NEOTRACE\INSTALL.LOG
+File Copy: C:\Programmi\NeoTrace\help.htm
+File Copy: C:\Programmi\NeoTrace\NeoTrace.exe
+File Copy: C:\Programmi\NeoTrace\neotrace.gdp
+File Copy: C:\Programmi\NeoTrace\OrderForm.pdf
+File Copy: C:\Programmi\NeoTrace\readme.txt
+File Copy: C:\Programmi\NeoTrace\usa.neomap
+File Copy: C:\Programmi\NeoTrace\world.neomap
+Shell Link: C:\WINDOWS\Menu Avvio\Programmi\NeoTrace\OrderForm.lnk
+Shell Link: C:\WINDOWS\Desktop\NeoTrace.lnk
+Shell Link: C:\WINDOWS\Menu Avvio\Programmi\NeoTrace\NeoTrace.lnk
+Shell Link: C:\WINDOWS\Menu Avvio\Programmi\NeoTrace\Uninstall.lnk
+Shell Link: C:\WINDOWS\Menu Avvio\Programmi\NeoTrace\readme.lnk
+Shell Link: C:\WINDOWS\Menu Avvio\Programmi\NeoTrace\WhatsNew212.lnk
+RegDB Key: Software\NeoWorx\NeoTrace
+RegDB Val: 2.12a Shareware
+RegDB Name: Current Version
+RegDB Root: 2
+RegDB Old: 2.12a Shareware
+RegDB Key: Software\NeoWorx\NeoTrace
+RegDB Val: C:\PROGRA~1\NEOTRACE
+RegDB Name: Install Directory
+RegDB Root: 2
+RegDB Old: C:\PROGRA~1\NEOTRACE
+Delete in-use files: On
+File Tree: C:\PROGRA~1\NEOTRACE\*.*

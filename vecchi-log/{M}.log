@@ -1,0 +1,58 @@
+
+Session Start: Wed Jan 06 14:19:57 1999
+Session Ident: {M} (~{M}@194.153.102.212)
+<{M}> eccomi
+<FigaroCoo> ciao
+<FigaroCoo> ai mica un convertitore di assebler in c++
+<{M}> no
+<FigaroCoo> scusa ti devo fare una domandina ... che linguaggio è questo
+<FigaroCoo> /*	This file was automatically created by
+<FigaroCoo>  *	Reverse Engineering Compiler 1.5f (C) Giampiero Caprino (Apr 25 1999)
+<FigaroCoo>  *	Input file: 'cchat.exe'
+<FigaroCoo>  */
+<FigaroCoo> /*	Procedure: 0x00401B77 - 0x00401B86
+<FigaroCoo>  *	Argument size: 0
+<FigaroCoo>  *	Local size: 0
+<FigaroCoo>  *	Save regs size: 0
+<FigaroCoo>  */
+<FigaroCoo> L00401B77()
+<FigaroCoo> {
+<FigaroCoo>     asm("adc [ebp+0xaa00c5],ebp");
+<FigaroCoo>     edx = -184455201;
+<FigaroCoo>     asm("sbb ah,[esi+esi*4]");
+<FigaroCoo>     asm("Unknown opcode 0x8f");
+<FigaroCoo>     asm("iret");
+<FigaroCoo> }
+<FigaroCoo> /*	Procedure: 0x00401B87 - 0x00401B96
+<FigaroCoo>  *	Argument size: 0
+<FigaroCoo>  *	Local size: 0
+<FigaroCoo>  *	Sav
+<FigaroCoo> lo sai?
+<FigaroCoo> ci 6
+<{M}> rieccomi
+<{M}> ams
+<{M}> asm
+<FigaroCoo> a
+<FigaroCoo> come devo farlo a compilarlo?
+<{M}> ti serve un compilatore.....
+<FigaroCoo> dove lo trovo
+<FigaroCoo> ?
+<FigaroCoo> ne ai uno
+<{M}> scusa un po'. ma che ci devi fare con sta roba?
+<FigaroCoo> devo.. fare il mirc nuva versione con i fumetti del chat
+<{M}> no no, con questo non ci fai il mirc.....
+<FigaroCoo> questo e exe del microsoftChat
+<{M}> lo so, ma che ci devi fare?
+<FigaroCoo> devo unire il microsoftchat con il mirc
+<FigaroCoo> insommi il mirc con le vignette
+<{M}> daiiii!
+<FigaroCoo> giuro
+<FigaroCoo> o intensione di farlo
+<{M}> da dove dgt?
+<FigaroCoo> Brindisi
+<{M}> sei tu giampiero?
+<FigaroCoo> no
+<FigaroCoo> quello ..e latore del progr
+<FigaroCoo> di disase
+Session Close: Wed Jan 06 14:31:58 1999
+

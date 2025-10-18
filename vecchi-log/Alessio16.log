@@ -1,0 +1,94 @@
+
+Session Start: Fri Jan 08 03:13:34 1999
+<FigaroCoo> ciao
+<FigaroCoo> sai usare w32dasm
+<Alessio16> bhe, non mi pare troppo difficile:)
+<FigaroCoo> dopo che mi da il file disaseblato come devo fare a compilarlo..?
+<FigaroCoo> qual'è il file quello.wpj o laltro?
+<Alessio16> ?
+<Alessio16> non puoi ricompilarlo..
+<Alessio16> casomai è 
+<Alessio16> .obj
+<Alessio16> ma non puoi riassemblare ..
+<FigaroCoo> come devo fare?
+<Alessio16> non puoi ricompilare
+<Alessio16> anche perchè non ti servirebbe a niente neanche potendo
+<FigaroCoo> no e wpj
+<FigaroCoo> a e come devo fare ad inserire le vignette del chat nel mirc?
+<Alessio16> ?
+<FigaroCoo> io voglio unire le vignette del microsoftchat con la potenza del mirc.. come devo fare..
+<FigaroCoo> ecco perchè mi serve il sorgente,,
+<Alessio16> non ti capisco
+<Alessio16> il sorgente non lo puoi ricavare..
+<FigaroCoo> ai presente il microsoftchat quando parli li escono le vignette ..
+<FigaroCoo> io voglio fare la stessa cosa con il mirc.. 
+<Alessio16> no, non lo conosco
+<FigaroCoo> a vedi e il microsoftchat di windows
+<Alessio16> ma non puoi.. 
+<FigaroCoo> e bellissimo perche il microsoft chat a un sacco di vignette e con i vari programmi te li puoi creare da te
+<Alessio16> non puoi avere il sorgente in C
+<FigaroCoo> perchè
+<FigaroCoo> senti  io o il sorgente... 
+<FigaroCoo> sai il rec
+<FigaroCoo> che è
+<Alessio16> no
+<FigaroCoo> e un disaseblatore..
+<FigaroCoo> particolarissimo
+<Alessio16> e che farebbe?
+<FigaroCoo> mi da il file cosi
+<FigaroCoo> /*	This file was automatically created by
+<FigaroCoo>  *	Reverse Engineering Compiler 1.5f (C) Giampiero Caprino (Apr 25 1999)
+<FigaroCoo>  *	Input file: 'cchat.exe'
+<FigaroCoo>  */
+<FigaroCoo> /*	Procedure: 0x00401B77 - 0x00401B86
+<FigaroCoo>  *	Argument size: 0
+<FigaroCoo>  *	Local size: 0
+<FigaroCoo>  *	Save regs size: 0
+<FigaroCoo>  */
+<FigaroCoo> L00401B77()
+<FigaroCoo> {
+<FigaroCoo>     asm("adc [ebp+0xaa00c5],ebp");
+<FigaroCoo>     edx = -184455201;
+<FigaroCoo>     asm("sbb ah,[esi+esi*4]");
+<FigaroCoo>     asm("Unknown opcode 0x8f");
+<FigaroCoo>     asm("iret");
+<FigaroCoo> }
+<FigaroCoo> /*	Procedure: 0x00401B87 - 0x00401B96
+<FigaroCoo>  *	Argument size: 0
+<FigaroCoo>  *	Local size: 0
+<FigaroCoo>  *	Sav
+<FigaroCoo> sai cose'?
+<Alessio16> bhe
+<FigaroCoo> cose'
+<Alessio16> me pare una semplificazione dell'asm
+<FigaroCoo> senti io o letto che esiste un traduttore..
+<FigaroCoo> da assebler in c++
+<Alessio16> casomai da asm a pseudo C
+<FigaroCoo> e si.. 
+<FigaroCoo> tu c'è lai
+<Alessio16> no
+<FigaroCoo> o letto tutto qui
+<FigaroCoo> http://www.aromatic.com/~cg/revnoni.htm#tools
+<Alessio16> vabbè..
+<FigaroCoo> qui dice che si puo riottenere il sorgente
+<Alessio16> esiste IDA
+<FigaroCoo> da un file...exe
+<Alessio16> mha vedi te
+<FigaroCoo> senti ti andrebbe di provarci insieme
+<FigaroCoo> ?
+<FigaroCoo> cioè di provare ad ottenere sto cazzo di sorgente?
+<FigaroCoo> allora ci sta?
+<Alessi016> sinceramente ora non mi va
+<Alessi016> oggi dovrei stare a festeggiare per il mio compleanno
+<Alessi016> invece sto qui a rincoglionirmi col VB..
+<FigaroCoo> Scusa..
+<FigaroCoo> senti tu ci puoi provare..e me lo mandi.. ti do la e-mail ok
+<Alessi016> mica ti devi scusare..
+<Alessi016> ok
+<FigaroCoo> la mia e-mail e japigia@iol.it
+<Alessi016> ok
+<FigaroCoo> fammi sapere ciaooooo
+<Alessi016> ciao
+<FigaroCoo> auguroniiii>..speriamo che ci riesciii
+Session Close: Fri Jan 08 03:29:19 1999
+

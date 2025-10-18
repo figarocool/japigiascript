@@ -1,7 +1,7 @@
-# Log files
-*.log
-logs/*.log
-vecchi-log/*.log
+# Log files (commented out to preserve historical logs)
+# *.log
+# logs/*.log
+# vecchi-log/*.log
 
 # Temporary files
 *.tmp

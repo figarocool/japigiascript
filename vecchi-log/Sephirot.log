@@ -1,0 +1,101 @@
+
+Session Start: Wed Jul 26 16:53:29 2000
+<FigaroCoo> sai 
+<FigaroCoo> il mugen
+<Sephirot> si ?
+<FigaroCoo> senti sai come bisogna fare ad levare i frime... quando giochi..
+<FigaroCoo> a levare i numeratori di sotto
+<Sephirot> devi
+<Sephirot> editare mugen.cfg
+<Sephirot> e alla linea debug devi scrivere 0 ( ZERO) al posto di 1 ( UNO)
+<FigaroCoo> ok e come si fà a mettere il massimo dello scermo
+<Sephirot> in che senso ?
+<FigaroCoo> a farlo a tutto scermo quando giochi
+<Sephirot> ah
+<Sephirot> c'è la riga strench 
+<FigaroCoo> dove
+<Sephirot> nel mugen.cfg
+<FigaroCoo> in che file
+<Sephirot> metti come valore 1 al posto di 0
+<FigaroCoo> dove..
+<FigaroCoo> dove la riga strench 
+<Sephirot> attemo che controllo
+<Sephirot> ;Set this parameter to 0 to disable screen stretching, and set it to 1 if                                                                                                                                     ;you want to scale it up to fit the current resolution.                                                                                                                                                      Stretch  = 1                                 
+<FigaroCoo> si ma non esce a tutto scermo
+<FigaroCoo> ?
+<Sephirot> sisi
+<Sephirot> esce a tutto schermo
+<FigaroCoo> solo di sopre ..
+<Sephirot> noo
+<FigaroCoo> ok
+<FigaroCoo> ora mi esce
+<FigaroCoo> senti mi succede che certi personaggi a volte scompaiono
+<Sephirot> manca il loro farme di animazione
+<Sephirot> non essendoci l'immagine scompaiono
+<FigaroCoo> senti e per levare la scripT di sotto beta
+<Sephirot> ?
+<Sephirot> in che senso ?
+<FigaroCoo> sotto mi esce beta..
+<Sephirot> ah
+<FigaroCoo> come devo fare ad levare la scritta
+<Sephirot> p normale
+<Sephirot> è la versione del mugen
+<Sephirot> non puoi toglierla
+<FigaroCoo> a
+<FigaroCoo> ma e uscita la versione completa
+<FigaroCoo> ?
+<Sephirot> bweh
+<Sephirot> in sostanza è quella
+<Sephirot> andrà avanti a beta per sempre
+<FigaroCoo> a
+<FigaroCoo> senti...per elevarla di bit.. si puo far nulla
+<FigaroCoo> ora a me si vede a 16 bit
+<FigaroCoo> per portarla a 32
+<Sephirot> 16 bit è la scelta migliore
+<Sephirot> a 32 va troppo lento
+<Sephirot> 32 bit è inutile in senso pratico
+<FigaroCoo> a 
+<FigaroCoo> senti per la memoria..
+<Sephirot> che memoria ?
+<FigaroCoo> io o dovuto mettere memoria virtuale si no si bloccava... si puo far qualcosa
+<FigaroCoo> io o 64 M di ram
+<Sephirot> la memoria virtuale la devi sempre avere attiva
+<Sephirot> anche cpon 256 mega dir am
+<FigaroCoo> a
+<FigaroCoo> graz
+<FigaroCoo> ciao
+Session Close: Wed Jul 26 17:10:35 2000
+
+
+Session Start: Wed Jul 26 17:44:06 2000
+<FigaroCoo> ciao
+<Sephirot> ciao
+<FigaroCoo> senti come devo fare.. a cambiare la fine.. di ogni personaggio!
+<FigaroCoo> cioè quando finisco il gioco esce sempre congratulation..
+<FigaroCoo> con tutti i personaggi..
+<Sephirot> non puoi 
+<FigaroCoo> come devo fare.. a cambiare la scriTT
+<FigaroCoo> a mettere qual cos altrp
+<FigaroCoo> senti e possibile mettere... i personaggi in ordine cioè quando combatto .. me li deve dare in un ordine da me stabilito si puo fare=?
+<FigaroCoo> ci 6
+<FigaroCoo> 6
+<Sephirot> ..
+<Sephirot> si
+<Sephirot> non puoi
+<FigaroCoo> neache i personaggi mi posso inpostare?
+<Sephirot> si si possono..
+<FigaroCoo> come si fa a inpostrarli
+<Sephirot> nei vari file del charatter
+<FigaroCoo> per mettere il livello di scaricamento..
+<FigaroCoo> del personaggio
+<FigaroCoo> in che file si trova
+<Sephirot> non ricordo .
+<Sephirot> io uso un tool apposito
+<FigaroCoo> come si chiama il too
+<Sephirot> mugenerator
+<Sephirot> l'ho preso su www.mugenitalia.emuita.it
+<Sephirot> io devo riavviare ..
+<Sephirot> ci si vede tra 5 minuti 
+<FigaroCoo> ok ciaoz
+Session Close: Wed Jul 26 17:54:04 2000
+
